@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/model/json/JSONModel","sap/ui/model/resource/ResourceModel","sap/ui/Device"],function(e,t,i){"use strict";return e.extend("sap.ui.demo.walkthrough.Component",{metadata:{interfaces:["sap.ui.core.IAsyncContentCreation"],manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);var n={recipient:{name:"UI5"}};var o=new t(n);this.setModel(o);const s=new t(i);s.setDefaultBindingMode("OneWay");this.setModel(s,"device");this.getRouter().initialize()},getContentDensityClass(){}})});
+//# sourceMappingURL=Component.js.map

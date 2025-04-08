@@ -6,7 +6,9 @@
   "scripts": {
     "start": "ui5 serve -o test/mockServer.html",
     "build": "ui5 build --all --clean-dest",
-    "serve-dist": "ws --compress -d dist --open"
+    "serve-dist": "ws --compress -d dist --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "devDependencies": {
     "local-web-server": "^5.4.0",
     "ui5-middleware-simpleproxy": "^3.4.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
