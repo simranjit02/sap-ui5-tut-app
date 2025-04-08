@@ -1,10 +1,21 @@
 <!-- /webapp/test/mockServer.html -->
+<!-- content="0; url=https://simranjit02.github.io/sap-ui5-tut-app/webapp/test/mockServer.html" -->
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/webapp/test/mockServer.html" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect immediately
+      window.location.href =
+        "https://simranjit02.github.io/sap-ui5-tut-app/webapp/test/mockServer.html";
+
+      // Or with a delay (e.g., 3 seconds)
+      // setTimeout(() => {
+      //   window.location.href = "https://example.com";
+      // }, 3000);
+    </script>
   </head>
   <body>
-    Redirecting...
+    <p>Redirecting to new site...</p>
   </body>
 </html>
