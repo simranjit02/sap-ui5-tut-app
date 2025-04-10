@@ -3,7 +3,6 @@ controllerName="sap.ui.demo.walkthrough.controller.App"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
 <Text text="Hello Simranjit Singh" />
-<Button text="Say Hello" press=".sayHello" />
-<Input value="{/recipient/name}" valueLiveUpdate="true" width="60%" description="Hello {/recipient/name}" />
-
+<Button text="{i18n>showHelloButtonText}" press=".sayHello" />
+<Input value="{/recipient/name }" valueLiveUpdate="true" width="60%" description="Hello {/recipient/name}" />
 </mvc:View>
