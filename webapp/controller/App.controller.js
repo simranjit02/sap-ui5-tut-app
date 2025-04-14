@@ -8,7 +8,7 @@ sap.ui.define(
   (Controller, MessageToast) => {
     "use strict";
     return Controller.extend("sap.ui.demo.walkthrow.controller.App", {
-      sayHello() {
+      onShowHello() {
         const oBundle = this.getView().getModel("i18n").getResourceBundle();
         const sRecipient = this.getView()
           .getModel()
