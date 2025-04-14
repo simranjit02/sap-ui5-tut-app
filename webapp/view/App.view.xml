@@ -8,9 +8,7 @@
                     <content>
                         <Panel headerText="{i18n>helloPanelTitle}" width="100%">
                             <content>
-                                <Button text="{i18n>showHelloButtonText}" press=".onShowHello" class="myCustomButton"/>
-                                <Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
-                                <Text text="Hello {/recipient/name}" class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+                                <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
                             </content>
                         </Panel>
                     </content>
