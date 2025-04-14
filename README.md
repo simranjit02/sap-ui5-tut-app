@@ -54,7 +54,18 @@ Through this project, I understood how to:
 
 ## 📂 Project Structure
 
-sap-ui5-tut-app/ │ ├── webapp/ │ ├── controller/ # JS Controllers │ ├── view/ # XML Views │ ├── i18n/ # Translations │ ├── model/ # JSON or OData Models │ ├── Component.js # App Component definition │ ├── manifest.json # App descriptor & routing │ ├── index.html # Main entry point │ └── ... ├── screenshots/ # App screenshots ├── README.md # Project documentation └── .gitignore
+sap-ui5-tut-app/
+├── webapp/ │
+| ├── controller/ # JS Controllers
+│ ├── view/ # XML Views
+│ ├── i18n/ # Translations
+│ ├── model/ # JSON or OData Models
+│ ├── Component.js # App Component definition
+│ ├── manifest.json # App descriptor & routing
+│ ├── index.html # Main entry point
+│ └── ... ├── screenshots/ # App screenshots
+├── README.md # Project documentation
+└── .gitignore
 
 ---
 
