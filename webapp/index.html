@@ -11,13 +11,18 @@
       data-sap-ui-libs="sap.m"
       data-sap-ui-compatVersion="edge"
       data-sap-ui-async="true"
-      data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
+      data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
       data-sap-ui-resourceroots='{
       "sap.ui.demo.walkthrough": "./"
     }'
     ></script>
   </head>
-  <body>
-    <h1 class="sapH1" id="contentH1"></h1>
+  <body class="sapH1" id="contentH1">
+    <div
+      data-sap-ui-component
+      data-name="sap.ui.demo.walkthrough"
+      data-id="container"
+      data-settings='{"id" : "walkthrough"}'
+    ></div>
   </body>
 </html>
