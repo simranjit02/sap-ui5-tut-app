@@ -29,7 +29,7 @@
                     formatOptions: {
                         showMeasure: false
                     }
-                }" numberUnit="{view>/currency}" numberState="{= ${invoice>ExtendedPrice}>50?'Error':'Success'}" />
+                }" numberUnit="{view>/currency}" numberState="{= ${invoice>ExtendedPrice}>50?'Error':'Success'}" type="Navigation" press=".onPress"/>
         </items>
     </List>
 </mvc:View>
