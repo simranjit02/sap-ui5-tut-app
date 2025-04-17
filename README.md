@@ -113,13 +113,3 @@ sap-ui5-tut-app/
 
 This project is licensed for **learning and demonstration purposes**.  
 You are free to **fork, modify, and use** it for **personal or educational purposes**.
-
----
-
-### 💬 Let me know if you want to add:
-
-- GIFs
-- More screenshots
-- Deploy links
-
-_I’ve got you 🤝_
