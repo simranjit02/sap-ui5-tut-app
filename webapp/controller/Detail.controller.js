@@ -1,6 +1,10 @@
 sap.ui.define(
-  ["sap/ui/core/mvc/Controller", "sap/ui/core/routing/History"],
-  (Controller, History) => {
+  [
+    "sap/ui/core/mvc/Controller",
+    "sap/ui/core/routing/History",
+    "sap/ui/model/json/JSONModel",
+  ],
+  (Controller, History, JSONModel) => {
     "use strict";
 
     return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
@@ -9,6 +13,10 @@ sap.ui.define(
         oRouter
           .getRoute("detail")
           .attachPatternMatched(this.onObjectMatched, this);
+        const oViewModel = new JSONModel({
+          currency: "EUR",
+        });
+        this.getView().setModel(oViewModel, "view");
       },
 
       onObjectMatched(oEvent) {
