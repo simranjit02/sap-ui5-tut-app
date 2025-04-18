@@ -45,7 +45,11 @@
         "supportedThemes": [
             "sap_hcb",
             "sap_bluecrystal"
-        ]
+        ],
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        }
     },
     "sap.ui5": {
         "_version": "1.108.0",
