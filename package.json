@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ui5 serve -o test/mockServer.html"
+    "start": "ui5 serve -o test/mockServer.html",
+    "build": "ui5 build --all --clean-dest",
+    "serve-dist": "ws --compress -d dist --open"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/simranjit02/sap-ui5-tut-app#readme",
   "devDependencies": {
+    "local-web-server": "^5.4.0",
     "ui5-middleware-simpleproxy": "^3.4.1"
   }
 }
